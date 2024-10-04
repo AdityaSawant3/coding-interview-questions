@@ -48,9 +48,10 @@ def two_sum_func3(arr, target):
 	right = len(arr)-1
 
 	while left <= right:
-		if arr[left] + arr[right] == target:
+		sum = arr[left] + arr[right]
+		if sum == target:
 			return True
-		elif arr[left] < target:
+		elif sum < target:
 			left += 1
 		else:
 			right -= 1
