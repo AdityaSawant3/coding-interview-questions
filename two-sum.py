@@ -58,3 +58,18 @@ def two_sum_func3(arr, target):
 	return False
 
 print(two_sum_func3(arr, target_num))
+
+# Using Set
+# Time Complexity: O(n)
+# Space Comlexity: O(n)
+
+def two_sum_func4(arr, target):
+	s = set()
+	for i in arr:
+		complement = target - i
+		if complement in s:
+			return True
+		s.add(i)
+	return False
+
+print(two_sum_func4(arr, target_num))
