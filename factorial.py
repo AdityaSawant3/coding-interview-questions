@@ -28,6 +28,7 @@ class Factorial:
 if __name__ == "__main__":
 
 	factorial = Factorial()
+	
 	print(factorial.factorial_using_recursion_approach(4))
 	print(factorial.factorial_using_iterative_approach1(4))
 	print(factorial.factorial_using_iterative_approach2(4))
