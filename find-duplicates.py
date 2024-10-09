@@ -15,5 +15,6 @@ class Find_Duplicates:
 
 find_duplicate = Find_Duplicates()
 
-lists = [2, 3, 5, 2, 8, 34, 1, 23, 34, 5]
-find_duplicate.find_duplicates_using_set(lists)
+if __name__ == "__main__":
+	lists = [2, 3, 5, 2, 8, 34, 1, 23, 34, 5]
+	find_duplicate.find_duplicates_using_set(lists)
