@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 def fibonacci_series_func(num):
 	first = 0
 	second = 1
