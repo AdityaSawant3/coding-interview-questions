@@ -23,10 +23,14 @@ def find_highest_missing(items):
 				return element-1
 
 if __name__ == "__main__":
+
 	list_items = [-6, 5, 3, 9, 4, 10, 2, 8, 12]
 	list_items.sort()
+
 	print(f"List: {list_items}")
+	
 	lowest_missing_element = find_lowest_missing(list_items)
 	print(f"Lowest missing element in list the is {lowest_missing_element}.")
+
 	highest_missing_element = find_highest_missing(list_items)
 	print(f"Highest missing element in list the is {highest_missing_element}.")
